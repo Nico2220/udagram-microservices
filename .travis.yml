@@ -32,7 +32,7 @@ script:
 
 after_success:
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-  - docker push nicfil/udagram-api-feed
-  - docker push nicfil/udagram-api-user
-  - docker push nicfil/udagram-frontend
-  - docker push nicfil/reverseproxy
+  - docker push nicfil/udagram-api-feed:v1
+  - docker push nicfil/udagram-api-user:v1
+  - docker push nicfil/udagram-frontend:v1
+  - docker push nicfil/reverseproxy:v1
