@@ -1,5 +1,5 @@
 node_modules
-set_env
+set_env.sh
 env-secret
 aws-secret
 env-configmap
