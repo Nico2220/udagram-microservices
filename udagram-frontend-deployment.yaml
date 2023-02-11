@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: udagram-frontend
-        image: nicfil/udagram-frontend:local
+        image: nicfil/udagram-frontend:v1
         ports:
         - containerPort: 8080
         

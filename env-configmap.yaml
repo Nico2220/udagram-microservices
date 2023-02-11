@@ -1,5 +1,5 @@
-version: "3"
-kind: configMap
+apiVersion: v1
+kind: ConfigMap
 metadata:
   name: env-config
 data:
