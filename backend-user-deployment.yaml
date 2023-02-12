@@ -65,14 +65,14 @@ spec:
             configMapKeyRef: 
               name: env-config
               key: URL
-        - name: aws_secret_access_key
-          valueFrom:
-            secretKeyRef: 
-              name: aws-secret
-              key: aws_secret_access_key
-        - name: aws_access_key_id
-          valueFrom:
-            secretKeyRef: 
-              name: aws-secret
-              key: aws_access_key_id
+        # - name: aws_secret_access_key
+        #   valueFrom:
+        #     secretKeyRef: 
+        #       name: aws-secret
+        #       key: aws_secret_access_key
+        # - name: aws_access_key_id
+        #   valueFrom:
+        #     secretKeyRef: 
+        #       name: aws-secret
+        #       key: aws_access_key_id
         
